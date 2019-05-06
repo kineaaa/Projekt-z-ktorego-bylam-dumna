@@ -10,3 +10,17 @@ def pobierz_dane(liczba_cyfr):
 nliczb=int(input("podaj z ilu cyf ma sie skladac lista: "))
 wynik=pobierz_dane(nliczb)
 print(wynik)
+
+
+nliczb=int(input("podaj z ilu cyf ma sie skladac lista: "))
+wynik=pobierz_dane(nliczb)
+print(wynik)
+
+def parzysta(liczba):
+    if liczba%2==0:
+        return "prawda"
+    else:
+        return "fałsz"
+
+for i in wynik:
+    print(parzysta(i))
