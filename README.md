@@ -24,3 +24,4 @@ def parzysta(liczba):
 
 for i in wynik:
     print(parzysta(i))
+    
